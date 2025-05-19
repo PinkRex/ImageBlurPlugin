@@ -12,7 +12,7 @@ class ImageBlurPlugin: public QObject, public PhotoEditorPluginInterface
     Q_INTERFACES(PhotoEditorPluginInterface)
 public:
     QString name() override;
-    void edit(const cv::Mat &input, cv::Mat &output) override;
+    void edit(const cv::Mat &input, cv::Mat &output, QWidget* parent) override;
 };
 
 #endif // IMAGE_BLUR_PLUGIN_H
