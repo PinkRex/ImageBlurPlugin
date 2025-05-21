@@ -3,6 +3,18 @@
 
 #include <QObject>
 #include <QtPlugin>
+#include <QDialog>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QSlider>
+#include <QLabel>
+#include <QPushButton>
+#include <QGraphicsView>
+#include <QGraphicsScene>
+#include <QGraphicsPixmapItem>
+#include <QTimer>
+#include <QRadioButton>
+#include <QGroupBox>
 #include "PhotoEditorPluginInterface.h"
 
 class ImageBlurPlugin: public QObject, public PhotoEditorPluginInterface

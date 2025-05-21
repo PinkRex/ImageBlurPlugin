@@ -297,6 +297,8 @@ Makefile: ../../ImageBlurPlugin.pro C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++/qmake
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/resources_functions.prf \
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/resources.prf \
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/moc.prf \
+		C:/Qt/6.9.0/mingw_64/mkspecs/features/win32/opengl.prf \
+		C:/Qt/6.9.0/mingw_64/mkspecs/features/uic.prf \
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/qmake_use.prf \
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/file_copies.prf \
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/win32/windows.prf \
@@ -305,6 +307,8 @@ Makefile: ../../ImageBlurPlugin.pro C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++/qmake
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/yacc.prf \
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/lex.prf \
 		../../ImageBlurPlugin.pro \
+		C:/Qt/6.9.0/mingw_64/lib/Qt6Widgets.prl \
+		C:/Qt/6.9.0/mingw_64/lib/Qt6Gui.prl \
 		C:/Qt/6.9.0/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/6.9.0/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\..\ImageBlurPlugin.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -535,6 +539,8 @@ C:/Qt/6.9.0/mingw_64/mkspecs/features/qt.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/resources_functions.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/resources.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/moc.prf:
+C:/Qt/6.9.0/mingw_64/mkspecs/features/win32/opengl.prf:
+C:/Qt/6.9.0/mingw_64/mkspecs/features/uic.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/qmake_use.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/file_copies.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/win32/windows.prf:
@@ -543,6 +549,8 @@ C:/Qt/6.9.0/mingw_64/mkspecs/features/exceptions.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/yacc.prf:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/lex.prf:
 ../../ImageBlurPlugin.pro:
+C:/Qt/6.9.0/mingw_64/lib/Qt6Widgets.prl:
+C:/Qt/6.9.0/mingw_64/lib/Qt6Gui.prl:
 C:/Qt/6.9.0/mingw_64/lib/Qt6Core.prl:
 C:/Qt/6.9.0/mingw_64/mkspecs/features/build_pass.prf:
 qmake: FORCE

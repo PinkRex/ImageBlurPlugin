@@ -7,6 +7,7 @@
 *****************************************************************************/
 
 #include "../../../imageblurplugin.h"
+#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 #include <QtCore/qplugin.h>
 

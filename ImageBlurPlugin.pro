@@ -1,5 +1,7 @@
 QT -= gui
 
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 TEMPLATE = lib
 DEFINES += IMAGEBLURPLUGIN_LIBRARY
 TARGET += ImageBlurPlugin
